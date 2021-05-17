@@ -1,0 +1,36 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="saf2021" #mandatory
+version="1.0" #mandatory
+# A display name for the mod
+displayName="SaF2021" #mandatory
+authors="40belo" #optional
+description='''
+Adds Ice and Fire support to Spartan weaponary in 1.16
+'''
+[[dependencies.saf2021]] #optional
+   # the modid of the dependency
+   modId="forge" #mandatory
+   # Does this dependency have to exist - if not, ordering below must be specified
+   mandatory=true #mandatory
+   # The version range of the dependency
+   versionRange="[36,)" #mandatory
+   # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+   ordering="NONE"
+   # Side this dependency is applied on - BOTH, CLIENT or SERVER
+   side="BOTH"
+# Here's another dependency
+[[dependencies.saf2021]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.saf2021]]
+modId="spartanweaponry"
+mandatory=true
+versionRange="[2.1.0,)"
+ordering="AFTER"
+side="BOTH"
