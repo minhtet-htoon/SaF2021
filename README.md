@@ -1,0 +1,2 @@
+# SpartanFire 2021
+This is an unofficial port of spartan fire to 1.16.5. The original Spartan Fire Mod [Found Here](http://https://www.curseforge.com/minecraft/mc-mods/spartan-and-fire "Found Here") was made for 1.12.2. Unfortunately, it has not been maintainde for some time so I decided to port it. As this is a port, it has the same license as the original. The project requires Spartan Weaponary, Citadel and Ice and Fire to work. This will be on curse as soon as I think it is ready for public release.
