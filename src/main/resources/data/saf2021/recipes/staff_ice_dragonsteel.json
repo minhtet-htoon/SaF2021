@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" p ", " i ", "   "], "key": {"p": {"item": "saf2021:witherbone_pole"}, "i": {"item": "iceandfire:dragonsteel_ice_ingot"}}, "result": {"item": "saf2021:staff_ice_dragonsteel"}, "conditions": []}

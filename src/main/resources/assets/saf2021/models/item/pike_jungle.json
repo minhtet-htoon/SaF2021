@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/pike_jungle"}, "parent": "spartanweaponry:item/pike_wood"}
+{"parent": "spartanweaponry:item/pike_wood", "textures": {"layer0": "saf2021:items/pike_jungle"}}

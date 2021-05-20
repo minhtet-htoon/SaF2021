@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" it", " si", "h  "], "key": {"h": {"item": "saf2021:witherbone_handle"}, "s": {"item": "minecraft:stick"}, "t": {"item": "iceandfire:myrmex_stinger"}, "i": {"item": "iceandfire:myrmex_jungle_chitin"}}, "result": {"item": "saf2021:mace_jungle_venom"}, "conditions": []}

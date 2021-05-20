@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/longbow_dragonsteel_fire_pulling_1"}, "parent": "spartanweaponry:item/longbow_wood_pulling_1"}
+{"parent": "spartanweaponry:item/longbow_wood_pulling_1", "textures": {"layer0": "saf2021:items/longbow_dragonsteel_fire_pulling_1"}}

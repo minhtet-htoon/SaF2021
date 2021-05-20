@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" i", "ip", "i "], "key": {"p": {"item": "saf2021:witherbone_pole"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "saf2021:halberd_dragonbone"}, "conditions": []}

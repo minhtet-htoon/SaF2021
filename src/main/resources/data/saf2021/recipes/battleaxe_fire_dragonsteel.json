@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["iii", "isi", " h "], "key": {"h": {"item": "saf2021:witherbone_handle"}, "s": {"item": "minecraft:stick"}, "i": {"item": "iceandfire:dragonsteel_fire_ingot"}}, "result": {"item": "saf2021:battleaxe_fire_dragonsteel"}, "conditions": []}

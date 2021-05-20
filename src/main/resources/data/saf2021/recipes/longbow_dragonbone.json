@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["hwi", "w s", "iss"], "key": {"h": {"item": "saf2021:witherbone_handle"}, "s": {"item": "minecraft:string"}, "w": {"item": "minecraft:stick"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "saf2021:longbow_dragonbone"}, "conditions": []}

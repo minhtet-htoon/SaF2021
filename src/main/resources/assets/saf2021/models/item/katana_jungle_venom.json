@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/katana_jungle_venom"}, "parent": "spartanweaponry:item/katana_wood"}
+{"parent": "spartanweaponry:item/katana_wood", "textures": {"layer0": "saf2021:items/katana_jungle_venom"}}

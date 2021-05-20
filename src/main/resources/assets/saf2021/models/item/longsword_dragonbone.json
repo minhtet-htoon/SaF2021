@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/longsword_dragon"}, "parent": "spartanweaponry:item/longsword_wood"}
+{"parent": "spartanweaponry:item/longsword_wood", "textures": {"layer0": "saf2021:items/longsword_dragon"}}

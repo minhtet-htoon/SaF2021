@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/saber_dragon"}, "parent": "spartanweaponry:item/saber_wood"}
+{"parent": "spartanweaponry:item/saber_wood", "textures": {"layer0": "saf2021:items/saber_dragon"}}

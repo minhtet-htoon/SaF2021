@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["pi"], "key": {"p": {"item": "saf2021:witherbone_pole"}, "i": {"item": "iceandfire:dragonsteel_ice_ingot"}}, "result": {"item": "spartanweaponry:javelin_ice_dragonsteel"}, "conditions": []}

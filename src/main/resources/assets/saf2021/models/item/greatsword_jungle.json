@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/greatsword_jungle"}, "parent": "spartanweaponry:item/greatsword_wood"}
+{"parent": "spartanweaponry:item/greatsword_wood", "textures": {"layer0": "saf2021:items/greatsword_jungle"}}

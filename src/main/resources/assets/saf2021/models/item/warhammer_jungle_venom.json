@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/warhammer_jungle_venom"}, "parent": "spartanweaponry:item/warhammer_wood"}
+{"parent": "spartanweaponry:item/warhammer_wood", "textures": {"layer0": "saf2021:items/warhammer_jungle_venom"}}

@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/battleaxe_jungle_venom"}, "parent": "spartanweaponry:item/battleaxe_wood"}
+{"parent": "spartanweaponry:item/battleaxe_wood", "textures": {"layer0": "saf2021:items/battleaxe_jungle_venom"}}

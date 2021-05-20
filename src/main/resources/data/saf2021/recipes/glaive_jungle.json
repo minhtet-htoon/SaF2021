@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" i ", " i ", "ip "], "key": {"p": {"item": "saf2021:witherbone_pole"}, "i": {"item": "iceandfire:myrmex_jungle_chitin"}}, "result": {"item": "saf2021:glaive_jungle"}, "conditions": []}

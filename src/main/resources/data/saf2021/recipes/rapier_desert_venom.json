@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["  t", "ii ", "hi "], "key": {"h": {"item": "saf2021:witherbone_handle"}, "t": {"item": "iceandfire:myrmex_stinger"}, "i": {"item": "iceandfire:myrmex_desert_chitin"}}, "result": {"item": "saf2021:rapier_desert_venom"}, "conditions": []}

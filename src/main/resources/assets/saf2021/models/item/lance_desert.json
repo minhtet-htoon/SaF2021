@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/lance_desert"}, "parent": "spartanweaponry:item/lance_wood"}
+{"parent": "spartanweaponry:item/lance_wood", "textures": {"layer0": "saf2021:items/lance_desert"}}

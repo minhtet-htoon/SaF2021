@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/dagger_dragonsteel_fire"}, "parent": "spartanweaponry:item/dagger_wood"}
+{"parent": "spartanweaponry:item/dagger_wood", "textures": {"layer0": "saf2021:items/dagger_dragonsteel_fire"}}

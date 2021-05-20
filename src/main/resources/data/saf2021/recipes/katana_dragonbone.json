@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["  i", " i ", "h  "], "key": {"h": {"item": "saf2021:witherbone_handle"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "saf2021:katana_dragonbone"}, "conditions": []}
