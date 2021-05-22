@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["bsi", "sw ", "i h"], "key": {"h": {"item": "saf2021:witherbone_handle"}, "b": {"item": "minecraft:bow"}, "s": {"item": "minecraft:stick"}, "w": {"tag": "miencraft:logs"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "spartanweaponry:heavy_crossbow_dragonbone"}, "conditions": []}
