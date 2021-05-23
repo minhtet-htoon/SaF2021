@@ -355,7 +355,7 @@ public class ItemInit {
         reg.register(FDS5);
         reg.register(FDS6);
         reg.register(FDS7);
-        reg.register(FDS8);
+        //reg.register(FDS8);
         reg.register(FDS9);
         reg.register(FDS10);
         reg.register(FDS12);
@@ -366,7 +366,7 @@ public class ItemInit {
         reg.register(FDS17);
         reg.register(FDS18);
         reg.register(FDS19);
-        reg.register(FDS20);
+        //reg.register(FDS20);
         reg.register(FDS21);
 
         reg.register(IDS1);
@@ -376,7 +376,7 @@ public class ItemInit {
         reg.register(IDS5);
         reg.register(IDS6);
         reg.register(IDS7);
-        reg.register(IDS8);
+        //reg.register(IDS8);
         reg.register(IDS9);
         reg.register(IDS10);
         reg.register(IDS12);
@@ -387,7 +387,7 @@ public class ItemInit {
         reg.register(IDS17);
         reg.register(IDS18);
         reg.register(IDS19);
-        reg.register(IDS20);
+        //reg.register(IDS20);
         reg.register(IDS21);
 
         reg.register(LDS1);
@@ -397,7 +397,7 @@ public class ItemInit {
         reg.register(LDS5);
         reg.register(LDS6);
         reg.register(LDS7);
-        reg.register(LDS8);
+        //reg.register(LDS8);
         reg.register(LDS9);
         reg.register(LDS10);
         reg.register(LDS12);
@@ -408,7 +408,7 @@ public class ItemInit {
         reg.register(LDS17);
         reg.register(LDS18);
         reg.register(LDS19);
-        reg.register(LDS20);
+        //reg.register(LDS20);
         reg.register(LDS21);
 
         reg.register(FDB1);
@@ -418,7 +418,7 @@ public class ItemInit {
         reg.register(FDB5);
         reg.register(FDB6);
         reg.register(FDB7);
-        reg.register(FDB8);
+        //reg.register(FDB8);
         reg.register(FDB9);
         reg.register(FDB10);
         reg.register(FDB12);
@@ -429,7 +429,7 @@ public class ItemInit {
         reg.register(FDB17);
         reg.register(FDB18);
         reg.register(FDB19);
-        reg.register(FDB20);
+        //reg.register(FDB20);
         reg.register(FDB21);
 
         reg.register(IDB1);
@@ -439,7 +439,7 @@ public class ItemInit {
         reg.register(IDB5);
         reg.register(IDB6);
         reg.register(IDB7);
-        reg.register(IDB8);
+        //reg.register(IDB8);
         reg.register(IDB9);
         reg.register(IDB10);
         reg.register(IDB12);
@@ -450,7 +450,7 @@ public class ItemInit {
         reg.register(IDB17);
         reg.register(IDB18);
         reg.register(IDB19);
-        reg.register(IDB20);
+        //reg.register(IDB20);
         reg.register(IDB21);
 
         reg.register(LDB1);
@@ -460,7 +460,7 @@ public class ItemInit {
         reg.register(LDB5);
         reg.register(LDB6);
         reg.register(LDB7);
-        reg.register(LDB8);
+        //reg.register(LDB8);
         reg.register(LDB9);
         reg.register(LDB10);
         reg.register(LDB12);
@@ -471,7 +471,7 @@ public class ItemInit {
         reg.register(LDB17);
         reg.register(LDB18);
         reg.register(LDB19);
-        reg.register(LDB20);
+        //reg.register(LDB20);
         reg.register(LDB21);
 
         reg.register(DB1);
@@ -481,7 +481,7 @@ public class ItemInit {
         reg.register(DB5);
         reg.register(DB6);
         reg.register(DB7);
-        reg.register(DB8);
+        //reg.register(DB8);
         reg.register(DB9);
         reg.register(DB10);
         reg.register(DB12);
@@ -492,7 +492,7 @@ public class ItemInit {
         reg.register(DB17);
         reg.register(DB18);
         reg.register(DB19);
-        reg.register(DB20);
+        //reg.register(DB20);
         reg.register(DB21);
     }
 }

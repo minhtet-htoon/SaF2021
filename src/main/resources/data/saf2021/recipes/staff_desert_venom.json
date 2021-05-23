@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "saf2021:staff_desert"}], "result": {"item": "saf2021:staff_desert_venom"}, "conditions": []}
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "saf2021:quarterstaff_desert"}], "result": {"item": "saf2021:quarterstaff_desert_venom"}, "conditions": []}

@@ -9,7 +9,7 @@ class MatDefinition(object):
         self.replace_tip = False
         self.tip_entry = None
 
-dragonMat = MatDefinition('dragonbone',
+dragonMat = MatDefinition('dragonbone', 
     {"item":"iceandfire:dragonbone"},
     [])
 desertMat = MatDefinition('desert',
@@ -54,29 +54,29 @@ POLE_ENTRY = {"p": {"item": "saf2021:witherbone_pole"}}
 HAFT_POLE = {"p": {"item": "saf2021:witherbone_pole"},
              "h": {"item": "saf2021:witherbone_handle"}}
 BOW_KEYS = {"h": {"item": "saf2021:witherbone_handle"},
-            "s": {"item": "minecraft:string"},
-            "w": {"item": "minecraft:stick"}}
+            "s": {"item":"minecraft:string"},
+            "w": {"item":"minecraft:stick"}}
 CROSSBOW_KEYS = {"h": {"item": "saf2021:witherbone_handle"},
                 "b": {"item": "minecraft:bow"},
-                "s": {"item": "minecraft:stick"},
-                "w": {"tag": "miencraft:logs"}}
+                "s": {"item":"minecraft:string"},
+                "w": {"tag":"minecraft:logs"}}
 STICK_HAFT = { "h": {"item": "saf2021:witherbone_handle"},
-                "s": {"item" :"minecraft:stick"}}
-BOOMERANG_KEYS = {"w": {"item": "minecraft:logs"}}
+                "s": {"item":"minecraft:stick"}}
+BOOMERANG_KEYS = {"w": {"tag":"minecraft:planks"}}
 
 patterns["katana"] = RecipePattern(
-    ["  i",
-     " i ",
-     "h  "],
+    ["  i", 
+     " i ", 
+     "h  "], 
     HAFT_ENTRY, (0, 2))
 patterns["greatsword"] = RecipePattern(
     [" i ",
-     "iii",
+     "iii", 
      "ihi"],
     HAFT_ENTRY, (0, 1))
 patterns["longsword"] = RecipePattern(
-    [" i ",
-     " i ",
+    [" i ", 
+     " i ", 
      "ihi"],
     HAFT_ENTRY, (0, 1))
 patterns["saber"] = RecipePattern(
@@ -133,7 +133,7 @@ patterns["longbow"] = RecipePattern(
      "w s",
      "iss"],
     BOW_KEYS, (0, 2))
-patterns["heavy_crossbow"] = RecipePattern(
+patterns["crossbow"] = RecipePattern(
     ["bsi",
      "sw ",
      "i h",],
@@ -146,7 +146,7 @@ patterns["battleaxe"] = RecipePattern(
      "isi",
      " h "],
     STICK_HAFT, (0, 1))
-patterns["flanged_mace"] = RecipePattern(
+patterns["mace"] = RecipePattern(
     [" ii",
      " si",
      "h  "],
@@ -212,11 +212,11 @@ def gen_replace_tip_recipe_for_weapon(weapon_name, mat_definition, pattern, mod_
     else:
         print("weapon has no i in recipe", weapon_name, mat_definition.mat_name)
         gen_dict = {
-            "type": "minecraft:crafting_shapeless",
+            "type": "minecraft:crafting/shapeless",
             "ingredients": [
             mat_definition.tip_entry,
             {
-              "item": mod_name + ":" + weapon_name + "_" + mat_definition.mat_name.split('_')[0]
+              "item": mod_name + ":" + weapon_name + "_" + mat_definition.mat_name.split('_')[0],
             }
             ],
             "result": {
@@ -228,21 +228,22 @@ def gen_replace_tip_recipe_for_weapon(weapon_name, mat_definition, pattern, mod_
               json.dump(gen_dict, outfile)
 
 
-MOD_NAME = "spartanweaponry"
+MOD_NAME = "saf2021"
 
-ALL_WEAPONS = ['heavy_crossbow', 'javelin','boomerang',
-                'throwing_knife']
+ALL_WEAPONS = ['katana', 'greatsword', 'longsword', 'saber', 'rapier',
+                'spear', 'dagger', 'pike', 'lance', 'halberd', 'warhammer', 'hammer', 'longbow',
+                'crossbow', 'battleaxe', 'mace', 'glaive']
 
-def gen_recipe_for_single_item_transform(start_mod, result_mod,
+def gen_recipe_for_single_item_transform(start_mod, result_mod, 
     start_weapon, result_weapon, item, start_material, result_material, start_data, result_data, item_data):
     gen_dict = {
           "type": "minecraft:crafting_shapeless",
           "ingredients": [
             {
-              "item": item
+              "item": item,
             },
             {
-              "item": start_mod + ":" + start_weapon + "_" + start_material
+              "item": start_mod + ":" + start_weapon + "_" + start_material,
             }
           ],
           "result": {
@@ -251,15 +252,13 @@ def gen_recipe_for_single_item_transform(start_mod, result_mod,
         }
     }
     with open(result_weapon + "_" + result_material + '.json', 'w') as outfile:
-        json.dump(gen_dict, outfile)
+        json.dump(gen_dict, outfile) 
 
 for weapon in ALL_WEAPONS:
     gen_recipe_for_single_item_transform(MOD_NAME, MOD_NAME,
         weapon, weapon, "iceandfire:fire_dragon_blood", "dragonbone", "fire_dragonbone", 0, 0, 0)
     gen_recipe_for_single_item_transform(MOD_NAME, MOD_NAME,
         weapon, weapon, "iceandfire:ice_dragon_blood", "dragonbone", "ice_dragonbone", 0, 0, 0)
-    gen_recipe_for_single_item_transform(MOD_NAME, MOD_NAME,
-        weapon, weapon, "iceandfire:lightning_dragon_blood", "dragonbone", "lightning_dragonbone", 0, 0, 0)
 
 for mat_definition in mats:
     for weapon in ALL_WEAPONS:
@@ -267,4 +266,3 @@ for mat_definition in mats:
             gen_replace_tip_recipe_for_weapon(weapon, mat_definition, patterns[weapon], MOD_NAME)
         else:
             gen_traditional_recipe_for_weapon(weapon, mat_definition, patterns[weapon], MOD_NAME)
-

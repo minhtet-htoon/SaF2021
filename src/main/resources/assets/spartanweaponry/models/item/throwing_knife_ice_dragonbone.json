@@ -1,1 +1,1 @@
-{"textures": {"layer0": "saf2021:items/throwing_knife_ice_dragon"}, "parent": "spartanweaponry:item/throwing_knife_wood"}
+{"parent": "spartanweaponry:item/throwing_knife_wood", "textures": {"layer0": "spartanweaponry:items/throwing_knife_ice_dragon"}}

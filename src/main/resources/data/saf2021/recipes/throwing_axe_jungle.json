@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped", "pattern": ["hi", " i"], "key": {"h": {"item": "saf2021:witherbone_handle"}, "i": {"item": "iceandfire:myrmex_jungle_chitin"}}, "result": {"item": "saf2021:throwing_axe_jungle"}, "conditions": []}
+{"type": "minecraft:crafting_shaped", "pattern": ["hi", " i"], "key": {"h": {"item": "saf2021:witherbone_handle"}, "i": {"item": "iceandfire:myrmex_jungle_chitin"}}, "result": {"item": "spartanweaponry:throwing_axe_jungle"}, "conditions": []}

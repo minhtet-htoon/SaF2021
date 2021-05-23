@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "spartanweaponry:boomerang_jungle"}], "result": {"item": "spartanweaponry:boomerang_jungle_venom"}, "conditions": []}
+{"type": "minecraft:crafting/shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "spartanweaponry:boomerang_jungle"}], "result": {"item": "spartanweaponry:boomerang_jungle_venom"}, "conditions": []}

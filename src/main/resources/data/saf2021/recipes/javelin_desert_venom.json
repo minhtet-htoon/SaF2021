@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "spartanweaponry:javelin_desert"}], "result": {"item": "spartanweaponry:javelin_desert_venom"}, "conditions": []}
+{"type": "minecraft:crafting/shapeless", "ingredients": [{"item": "iceandfire:myrmex_stinger"}, {"item": "spartanweaponry:javelin_desert"}], "result": {"item": "spartanweaponry:javelin_desert_venom"}, "conditions": []}

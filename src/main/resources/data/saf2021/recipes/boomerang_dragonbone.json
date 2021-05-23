@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped", "pattern": ["iww", "w  ", "w  "], "key": {"w": {"item": "minecraft:logs"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "spartanweaponry:boomerang_dragonbone"}, "conditions": []}
+{"type": "minecraft:crafting_shaped", "pattern": ["iww", "w  ", "w  "], "key": {"w": {"tag": "minecraft:planks"}, "i": {"item": "iceandfire:dragonbone"}}, "result": {"item": "spartanweaponry:boomerang_dragonbone"}, "conditions": []}

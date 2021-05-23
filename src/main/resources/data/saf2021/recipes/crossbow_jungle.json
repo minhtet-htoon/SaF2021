@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["bsi", "sw ", "i h"], "key": {"h": {"item": "saf2021:witherbone_handle"}, "b": {"item": "minecraft:bow"}, "s": {"item": "minecraft:string"}, "w": {"tag": "minecraft:logs"}, "i": {"item": "iceandfire:myrmex_jungle_chitin"}}, "result": {"item": "saf2021:crossbow_jungle"}, "conditions": []}

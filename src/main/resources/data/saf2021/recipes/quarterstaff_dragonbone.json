@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" p ", " i ", "   "], "key": {"p": {"item": "saf2021:witherbone_pole"}, "i": {"type": "forge:ore_dict", "ore": "ingotDragonbone"}}, "result": {"item": "saf2021:quarterstaff_dragonbone"}, "conditions": []}

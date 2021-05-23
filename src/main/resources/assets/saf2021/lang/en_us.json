@@ -244,5 +244,12 @@
   "item.spartanweaponry.throwing_knife_fire_dragonsteel": "Fire Dragonsteel throwing_knife",
   "item.spartanweaponry.throwing_knife_ice_dragonsteel": "Ice Dragonsteel throwing_knife",
   "item.spartanweaponry.throwing_knife_lightning_dragonsteel": "Lightning Dragonsteel throwing_knife",
-  "item.spartanweaponry.throwing_knife_jungle": "Jungle Myrmex throwing_knife"
+  "item.spartanweaponry.throwing_knife_jungle": "Jungle Myrmex throwing_knife",
+
+  "item.saf2021.witherbone_handle":"Witherbone Handle",
+  "item.saf2021.witherbone_pole":"Witherbone Pole",
+
+  "tooltip.saf2021.trait.Fiery": "Sets targets on fire and knocks them back",
+  "tooltip.saf2021.trait.Icy": "Frezzes targets",
+  "tooltip.saf2021.trait.Shocking": "Strikes targets with lightning"
 }

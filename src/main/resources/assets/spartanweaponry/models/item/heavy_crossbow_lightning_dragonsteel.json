@@ -1,0 +1,41 @@
+{
+    "textures": {
+      "layer0": "spartanweaponry:items/crossbow_dragonsteel_lightning_standby"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "pulling": 1
+        },
+        "model": "saf2021:item/crossbow_lightning_dragonsteel_pulling_0"
+      },
+      {
+        "predicate": {
+          "pull": 0.65,
+          "pulling": 1
+        },
+        "model": "saf2021:item/crossbow_lightning_dragonsteel_pulling_1"
+      },
+      {
+        "predicate": {
+          "pull": 0.9,
+          "pulling": 1
+        },
+        "model": "saf2021:item/crossbow_lightning_dragonsteel_pulling_2"
+      },
+      {
+        "predicate": {
+          "charged":1
+        },
+        "model": "saf2021:item/crossbow_lightning_dragonsteel_loaded"
+      },
+      {
+        "predicate": {
+          "pulling": 1,
+          "charged": 1
+        },
+        "model": "saf2021:item/crossbow_lightning_dragonsteel_firing"
+      }
+    ],
+    "parent": "spartanweaponry:item/heavy_crossbow_wood"
+  }
